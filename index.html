@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PAGE TITLE -->
+    <title>ChiliKompagniet</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Lato:300,400,700,900&subset=latin-ext" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/linear-fonts.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" href="assets/images/logolille.png">
+</head>
+
+<body>
+    <!-- START PRELOADER AREA-->
+    <div class="preloader-area">
+        <div class="preloader">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/da_DK/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="106169824850294"
+        theme_color="#fa3c4c"
+        logged_in_greeting="Velkommen til! Hvad kan vi gøre for dig?"
+    logged_out_greeting="Velkommen til! Hvad kan vi gøre for dig?">
+    </div>
+    <!-- END PRELOADER AREA -->
+
+    <!-- START HOMEPAGE DESIGN AREA -->
+    <header id="home" class="welcome-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- START LOGO DESIGN AREA -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="./assets/images/KG.png"></img>
+                            </a>
+                        </div>
+                        <!-- END LOGO DESIGN AREA -->
+                    </div>
+                    <div class="col-md-9">
+                        <!-- START MENU DESIGN AREA -->
+                        <div class="mainmenu">
+                            <div class="navbar navbar-nobg">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smoth-scroll" href="#home">Hjem <div class="ripple-wrapper"></div></a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#pricing">Chili Produkter</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#service">Om os</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#Process">Hvordan gør vi?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MENU DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-image-area" data-stellar-background-ratio="0.6">
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="header-text text-center">
+                                    <h2>ChiliKompagniet</h2>
+                                    <p>Vi spicer din hverdag op</p>
+                                    <a class="slide-btn smoth-scroll" href="#pricing"><i></i>
+                                        Bestil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / END HOMEPAGE DESIGN AREA -->
+
+        <!-- START PRICING DESIGN AREA -->
+        <section id="pricing" class="pricing-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Priser</h2>
+                            <p>ChiliKompagniet producerer pr. ordre.</p>
+                            <p>Vi tilbyder tre forskellige varianter, men kan også producere efter individuelle ønsker.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-md-4 col-sm-6 wow fadeInLeft" data-wow-delay=".6s">
+                        <div class="pricing-box">
+                            <div class="pricing-header">
+                                <div class="plan-title">
+                                    <h4>Den Svage </h4>
+                                </div>
+                                <div class="plan-price">
+                                    36,95 kr.
+                                </div>
+                                <div class="plan-month text-muted">
+                                    150 ml
+                                </div>
+                            </div>
+                            <ul class="list-unstyled plan-features">
+                                <li>1 times intensiv træning med fokus på dig</li>
+                                <li>Professionel og kompetent coaching </li>
+                                <li>Videooptagelse af din træning til fokus på detaljen og fejlretning </li>
+                                <li>Ubegrænset adgang til sparring med vores professionelle trænere </li>
+                            </ul>
+                            <a class="read-more" href="order.html">Bestil her</a>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PRICING DESIGN AREA -->
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-delay=".4s">
+                        <div class="pricing-box price-active">
+                            <div class="pricing-header">
+                                <div class="plan-title">
+                                    <h4>Den Klassiske</h4>
+                                </div>
+                                <div class="plan-price">
+                                    36,95 kr.
+                                </div>
+                                <div class="plan-month text-muted">
+                                    150 ml
+                                </div>
+                            </div>
+                            <ul class="list-unstyled plan-features">
+                                <li>1 times intensiv træning med gruppe ml. 2-8 spillere</li>
+                                <li>Professionel og kompetent coaching </li>
+                                <li>Videooptagelse af gruppens træning til fokus på detaljen og fejlretning </li>
+                                <li>Ubegrænset adgang til sparring med vores professionelle trænere </li>
+                            </ul>
+                            <a class="read-more" href="order.html">Bestil her</a>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PRICING DESIGN AREA -->
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-md-4 col-sm-6 wow fadeInRight" data-wow-delay=".6s">
+                        <div class="pricing-box">
+                            <div class="pricing-header">
+                                <div class="plan-title">
+                                    <h4>Den Vanvittige</h4>
+                                </div>
+                                <div class="plan-price">
+                                    36,95 kr.
+                                </div>
+                                <div class="plan-month text-muted">
+                                    150 ml
+                                </div>
+                            </div>
+                            <ul class="list-unstyled plan-features">
+                                <li>1,5 times intensiv gæstetræning for dit hold.</li>
+                                <li>Professionel og kompetent coaching </li>
+                                <li>Værktøjer og inspiration til at skabe udviklende og meningsfulde træninger</li>
+                                <li>Ubegrænset adgang til sparring med vores professionelle trænere </li>
+                            </ul>
+                            <a class="read-more" href="order.html">Bestil her</a>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PRICING DESIGN AREA -->
+                </div>
+            </div>
+        </section>
+        <!-- / END PRICING DESIGN AREA -->
+
+    <!-- START FEATURE DESIGN AREA -->
+    <section id="service" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Om os</h2>
+                    </br>
+                </br>
+                        <p> Den autentiske smag af den berømte chili som du kender fra din lokale shawarmabar er en følelse de fleste kender. </p>
+                        <p> Hos ChiliKompagniet har vi gennem mange år forsøgt at kombinere nøje udvalgte krydderier, til at skabe den perfekte nuance mellem det sure, søde og det stærke. 
+
+                            Utallige besøg på indlandske og udlandske perler, har gjort chilikompagniet i stand til at få opskriften til at gå op i en højere enhed. 
+                            Et årti er gået og vi kan nu endelig løfte sløret for, hvad vi selv vil vurdere til at være det perfekte touch til ethvert måltid. 
+                            
+                            Spis det på traditionelle mellemøstlige egnsretter, eller pift dine egne traditioner op med denne skønne chili. 
+                            
+                            Oprindeligt var målet kun at lave den du kender som chili a la shawarma bar. Men hos os kan vi prale af udgaver til flere smagsløje. Er du ikke til det stærke, men alligevel er fan af den vidunderlige krydderikombination fås den som en krydret tomatpasta, alternativt for de mindre sarte sjæle og dem som mangler lidt at Spice hverdagen op med, en ekstra hot version. 
+                            
+                            Servietten på hovedet eller i skødet, du bestemmer selv, Chilikompagniet er prikken over i’et i dine måltider fremover.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+            
+        </div>
+    </section>
+    <!-- / END FEATURE DESIGN AREA -->
+
+    <section id="Process" class="text-center about">
+        <h1>Hvordan gør vi?</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >
+              <span class="fa fa-group"></span>
+              <h2>Bestilling</h2>
+              <p class="lead">Ved ordreafgivelse hos ChiliKompagniet bedes du udfylde bestillingsformularen. Bestillingsformularen findes ved at vælge det ønskede produkt og trykke "Bestil Her". Du vil inden for 24 timer modtage en ordrebekræftelse</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+              <span class="fa fa-info"></span>
+              <h2>Produktion </h2>
+              <p class="lead">Når en ordre bekræftes igangsættes produktionen på vores maskineri. Krydderierne importeres fra alverdens nationer, men sammenblandingen kokkeres lokalt i Danmark af dansk arbejdskraft. </p>
+            </div>
+            <div class="clearfix visible-md-block visible-sm-block"></div>
+            <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+              <span class="fa fa-file"></span>
+              <h2>Modtagelse</h2>
+              <p class="lead">Når produktionen af din ordre er færdig vil du modtage en mail med afhentningslokation. For nuværende kan produkterne ikke leveres.</p>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="footer-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="footer-social-link">
+                        <ul>
+                            <li><a href="https://www.facebook.com/ChiliKompagnietDK"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/chilikompagniet"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-text">
+                        <h6>&copy;copyright | ChiliKompagniet </h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END CONTACT DETAILS DESIGN AREA -->
+
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="scroll-to-up">
+        <div class="scrollup">
+            <span class="lnr lnr-chevron-up"></span>
+        </div>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+
+
+
+    <!-- LATEST JQUERY -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- OWL CAROUSEL JS  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- STEALLER JS -->
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <!-- YOUTUBE JS -->
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script type="text/javascript">
+        $('.player').mb_YTPlayer();
+    </script>
+    <!-- COUNTER UP JS -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- CONTACTFORM JS -->
+    <script src="assets/js/form-contact.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/scripts.js"></script>
+    
+
+</body>
+
+</html>
