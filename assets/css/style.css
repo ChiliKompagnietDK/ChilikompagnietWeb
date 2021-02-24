@@ -905,6 +905,11 @@ a.slide-btn:hover {
   margin-right: 130px;
 }
 
+.cart {
+  align-items: flex-end;
+  position: absolute;
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 15.CONTACT CSS STYLE
@@ -912,7 +917,7 @@ a.slide-btn:hover {
 */
 
 .contact-form {
-  margin-top: 20px; 
+  margin-top: 0px;
 }
 
 .form-control {
@@ -922,7 +927,7 @@ a.slide-btn:hover {
   height: 45px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: grey;
+  color: "#363636";
   background-color: transparent;
   background-image: none;
   border-radius: 0px;
@@ -1059,7 +1064,7 @@ a.slide-btn:hover {
 }
 .preview-header-top-area h2 {
   font-size: 60px;
-  color: red;
+  color: rgb(75, 48, 48);
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -1077,7 +1082,7 @@ a.slide-btn:hover {
 
 .about {
   cursor: pointer;
-  background-color: #000000;
+  background-color: #363636;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 30px;
