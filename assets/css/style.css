@@ -127,7 +127,7 @@ fieldset {
 a.read-more {
   margin-top: 20px;
   display: inline-block;
-  color: #363636;
+  color: #202020;
   padding: 10px 25px;
   border: 1px solid #000;
   text-transform: uppercase;
@@ -149,7 +149,7 @@ a.read-more:hover {
   height: 30px;
   width: 30px;
   font-size: 14px;
-  color: #363636;
+  color: #202020;
   text-align: center;
   position: fixed;
   bottom: 30px;
@@ -174,7 +174,7 @@ a.read-more:hover {
 */
 
 .preloader-area {
-  background: #363636;
+  background: #202020;
   bottom: 0;
   left: 0;
   position: fixed;
@@ -531,7 +531,7 @@ a.slide-btn:hover {
 */
 
 .service-area {
-  background: #363636;
+  background: #202020;
 }
 
 .single-service {
@@ -659,7 +659,7 @@ a.slide-btn:hover {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
-  color: #363636;
+  color: #202020;
 }
 
 .single-team:hover .team-description:before {
@@ -737,7 +737,7 @@ a.slide-btn:hover {
   margin-bottom: 30px;
   height: 400px;
   position: relative;
-  color: #363636;
+  color: #202020;
 }
 
 .single-testi-des:before {
@@ -833,20 +833,20 @@ a.slide-btn:hover {
   text-transform: capitalize;
   letter-spacing: 3px;
   font-weight: 600;
-  color: #363636;
+  color: #202020;
 }
 
 .pricing-header .plan-price {
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
-  color: #363636;
+  color: #202020;
   font-weight: 900;
 }
 
 .plan-features {
   margin-top: 40px;
-  color: #363636;
+  color: #202020;
   font-size: 14px;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -871,7 +871,7 @@ a.slide-btn:hover {
 */
 
 .download-area {
-  background-color: #363636;
+  background-color: #202020;
   background-size: cover;
   padding: 200px 0px;
   position: relative;
@@ -905,6 +905,9 @@ a.slide-btn:hover {
   margin-right: 130px;
 }
 
+.shop {
+  margin-top: 20px;
+}
 .cart {
   align-items: flex-end;
   position: absolute;
@@ -927,7 +930,7 @@ a.slide-btn:hover {
   height: 45px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: "#363636";
+  color: "#202020";
   background-color: transparent;
   background-image: none;
   border-radius: 0px;
@@ -1082,7 +1085,7 @@ a.slide-btn:hover {
 
 .about {
   cursor: pointer;
-  background-color: #363636;
+  background-color: #202020;
   color: #ffffff;
   padding-top: 20px;
   padding-bottom: 30px;
