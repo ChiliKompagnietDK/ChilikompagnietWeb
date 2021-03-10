@@ -1,0 +1,18 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+# gor at den ikke leder i folders
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Here we make it show the page that has .html included
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
