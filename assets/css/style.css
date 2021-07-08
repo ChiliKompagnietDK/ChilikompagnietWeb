@@ -325,6 +325,10 @@ a.read-more:hover {
   width: 100%;
 }
 
+.bottomtab {
+  height: 150px;
+}
+
 .mainmenu .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
@@ -915,6 +919,7 @@ a.slide-btn:hover {
 .shop {
   margin-top: 20px;
 }
+
 .cart {
   align-items: flex-end;
   position: absolute;
